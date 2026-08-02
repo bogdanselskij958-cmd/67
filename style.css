@@ -3,10 +3,23 @@ button{
     height: 200px;
     margin: auto;
     font-size: 60px;
-    display: block;
+    margin-left: 650px;
+    display: inline-block;
     background: rgb(54, 114, 211);
     color: rgb(251, 250, 250);
     border-radius: 10px;
+}
+div{
+    display: inline-block;
+    font-size: 40px;
+    margin-left: 450px;
+    background-color: rgb(72, 50, 213);
+    color:white;
+    width: 100px;
+    border-radius: 10px;
+    height: 100px;
+    margin-top: -200px;
+    text-align: center;
 }
 .visible{
     opacity: 1;
