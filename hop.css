@@ -1,0 +1,15 @@
+.magaz{
+    width: 500px;
+    height: 80px;
+    font-size: 60px;
+    margin: auto;
+    background: rgb(247, 9, 9);
+    color: white;
+    text-align: center;
+    border-radius: 10px;
+    
+}
+body{
+   height:100vh;
+    background: linear-gradient(to top, rgb(207, 6, 6), rgb(252, 252, 253) );
+}

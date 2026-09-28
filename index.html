@@ -1,15 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>67official</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>67official</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-<body>
-<button>67</button>
-<div>0</div>
-<img src="67.png">
-<script src="script.js"></script>
+<body class="game">
+  <header class="top">
+    <a class="btn ghost" href="shop.html">🛒 Магазин</a>
+    <div class="score"><span id="score">0</span><small>очок</small></div>
+    <div class="stats"><span id="pc">+1 / клік</span><span id="ps">0 / сек</span></div>
+  </header>
+  <main class="stage">
+    <button class="button67" id="click">67</button>
+    <img id="pic" src="67.png" alt="">
+  </main>
+  <script src="common.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
